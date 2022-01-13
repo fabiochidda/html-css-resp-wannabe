@@ -1,0 +1,13 @@
+/* Smartphone Media Queries */
+
+@media screen and (max-width: 419px) {
+    #lezioni .row {
+        background-color: #F2F2CD;
+    }
+
+    #why .row {
+        background-color: #F2F2CD;
+    }
+
+}
+
