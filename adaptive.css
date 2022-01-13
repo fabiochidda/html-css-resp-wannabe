@@ -1,13 +1,26 @@
 /* Smartphone Media Queries */
 
 @media screen and (max-width: 419px) {
-    body {
+    * {
         margin: 0;
     }
 
     .row {
         width: 100%;
         margin: 0;
+        padding: ;
+    }
+
+    img {
+        height: 90px;
+    }
+
+    hr {
+        border: 1px solid #555555;
+    }
+
+    h1 {
+        padding-top: 15px;
     }
 
     #lezioni .row {
@@ -16,19 +29,22 @@
 
     #lezioni .row .left, #lezioni .row .right {
         width: 100%;
+        margin-top: 20px;
     }
 
     #lezioni h1 {
         margin-top: 0;
     }
-    
+
     #steps .row .left, #steps .row .central, #steps .row .right {
         width: 100%;
+        margin-top: 20px;
     }
 
-
+    #why .row .first, #why .row .second, #why .row .third {
+        margin-top: 20px;
+    }
     
-
     #why .row {
         background-color: #F2F2CD;
     }
